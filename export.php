@@ -1,8 +1,22 @@
 
 <?php
-//Easy to use snippet to export your database into a csv. 
-//Really handy and useful when you have scraping projects one after the other like me.
-//Coded by- Kishor Mathew Kurian
+
+/*
+| -------------------------------------------------------------------
+| Easy to use snippet to export your database into a csv. 
+| -------------------------------------------------------------------
+| Really handy and useful when you have scraping projects one after the other like me. Edit the codeigniter hooks to use it for pure php projects.
+|
+| 
+| 
+|   Author  : Kishor Kurian aka Repulsor
+|   Email   : repulsor2013@gmail.com
+|   Contact : repulsorbhw (Skype)
+|
+|  “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”
+|   -Martin Fowler
+| -------------------------------------------------------------------
+*/
 
     $file = fopen("tmp/export.csv","w");
     $query = "SELECT * FROM  `data`";
