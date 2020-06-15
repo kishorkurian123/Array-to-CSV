@@ -9,7 +9,7 @@
 |
 | 
 | 
-|   Author  : Kishor Kurian aka Repulsor
+|   Author  : Kishor Kurian
 |   https://github.com/kishorkurian123
 |   
 |
